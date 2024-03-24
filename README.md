@@ -2,7 +2,8 @@
 
 This is a website for a tailors called "Touching Cloth" aimed at potential customers for the store. It will include a rundown of services provided, and costs where applicable, aswell as images of the store, the workshop, and finished products. Customers will also be able to access the stores social media, sign up to a mailing list, and access contact details/address & map of the location.
 
-I will provide a screenshot from Balsamic here of the wireframe mock-up
+![Balsamic wireframe for smartphone view](assets/readme/images/touching-cloth-smart-wf.png)
+![Balsamic wireframe for desktop browser](assets/readme/images/touching-cloth-browser-wf.png)
 
 ## Features 
 
@@ -38,6 +39,12 @@ A live link will be provided here
 ## Credits 
 
 In this section I will refrence the sources of my content and media, full disclosure of any resources used shall be detailed here.
+
+Balsamic used for wireframe mockups.
+
+Hero image generated with Midjourney AI Image generator using the prompt: "professional line-art vector style logo for a modern tailoring company called "Touching Cloth Modern Tailors", professional brand design look in the style of Yoji Shinkawa, James Gilleard and Greg Rutkowski. logo, pocket and stitching illustration, simple, minimalistic, transparent background, using a simple and clean font --s 750 --v 6.0 --ar 103:46"
+
+Logo created using Gnome Image Manipulation Program (GIMP 2.1.0)
 
 ### Content 
 
