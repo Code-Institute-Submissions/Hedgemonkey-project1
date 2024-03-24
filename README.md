@@ -1,39 +1,44 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Touching Cloth 
 
-Welcome,
+This is a website for a tailors called "Touching Cloth" aimed at potential customers for the store. It will include a rundown of services provided, and costs where applicable, aswell as images of the store, the workshop, and finished products. Customers will also be able to access the stores social media, sign up to a mailing list, and access contact details/address & map of the location.
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+I will provide a screenshot from Balsamic here of the wireframe mock-up
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **August 30th, 2023**
+## Features 
 
-## Codeanywhere Reminders
+This section shll contain the different parts/features of the site, explaining what each is for and what value it holds for the end user and how it helps them achieve that goal.
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+### Existing Features
 
-`python3 -m http.server`
+### Features Left to Implement
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+## Testing 
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+This section will detail testing as each feature is implimented ensuring that everything works as inteded. Notes will be made regarding how the website looks and feels on different browsers & screen sizes.
 
-`http_server`
+Any bugs encountered will be documented here.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+### Validator Testing 
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+- HTML
+  - Test the website by passing through the official [W3C validator](https://validator.w3.org/)
+- CSS
+  - Test the website by passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/)
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+### Unfixed Bugs
 
-To log into the Heroku toolbelt CLI:
+Any unfixed bugs will be detailed here and explinations as to why they haven not been fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed.
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+## Deployment
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+This section will describe the process gone through to deploy the project to a hosting platform
 
----
+A live link will be provided here
 
-Happy coding!
+## Credits 
+
+In this section I will refrence the sources of my content and media, full disclosure of any resources used shall be detailed here.
+
+### Content 
+
+### Media
