@@ -125,6 +125,16 @@ header a {
     background-color: rgba(255, 255, 255, 0.301);
 }
 
+/* Nav */
+nav {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    box-shadow: 0 2px 2px rgba(247, 247, 247, 0.6);
+    display: none;
+}
+
 /* Main */
 main {
     padding: 20px;
