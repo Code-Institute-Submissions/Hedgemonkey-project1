@@ -168,7 +168,7 @@ nav {
 /* Nav dropdown functionality */
 #nav-toggle:checked~nav {
     visibility: visible;
-    max-height: 100px;
+    max-height: 150px;
     transition: all 1s ease;
 }
 
