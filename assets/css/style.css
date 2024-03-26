@@ -98,16 +98,17 @@ body {
 }
 
 h1 {
-    font-size: 2.5rem;
-    letter-spacing: 3px;
+    font-size: 2rem;
+    letter-spacing: 2.5px;
     font-family: 'Maiden Orange', serif;
     font-weight: 500;
+    padding-top: 10px;
 }
 
 /* Header */
 header {
     background-color: #333;
-    color: #fff;
+    color: #c9982f;
     padding: 0 1rem;
     text-align: center;
     position: fixed;
@@ -117,6 +118,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
+    height: 50px;
 }
 
 header a {
@@ -160,6 +162,7 @@ nav {
 main {
     padding: 20px;
     flex: 1 0 auto;
+    margin-top: 30px;
 }
 
 /* Footer */
