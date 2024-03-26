@@ -2,9 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Maiden+Orange&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
 
 /* Font Classes for ease of use */
-
 /* Tillium Web */
-
 .titillium-web-extralight {
     font-family: "Titillium Web", sans-serif;
     font-weight: 200;
@@ -72,7 +70,6 @@
 }
 
 /* Maiden Orange */
-
 .maiden-orange-regular {
     font-family: "Maiden Orange", serif;
     font-weight: 400;
@@ -88,7 +85,6 @@
 }
 
 /* General Styles */
-
 body {
     min-height: 100vh;
     display: flex;
@@ -108,17 +104,41 @@ h1 {
 /* Header */
 header {
     background-color: #333;
-    color: #c9982f;
+    color: rgba(216, 160, 77, 1);
     padding: 0 1rem;
     text-align: center;
-    position: fixed;
-    z-index: 100;
+    position: relative;
+    z-index: 99;
     width: 100%;
     box-shadow: 0 2px 5px rgba(247, 247, 247, 0.6);
     display: flex;
     justify-content: space-between;
     align-items: baseline;
     height: 50px;
+}
+
+/* Menu */
+#menu {
+    font-size: 120%;
+    letter-spacing: 3px;
+    list-style-type: none;
+}
+
+#menu-button {
+    position: absolute;
+    background-image: url(../images/touching-cloth-logo.png);
+    background-size: cover;
+    color: rgb(0, 0, 0);
+    height: 50px;
+    width: 50px;
+    z-index: 100;
+    right: 0;
+    top: 0;
+    text-align: center;
+    text-justify: center;
+    padding-top: 12px;
+    font-style: strong;
+    font-weight: 700;
 }
 
 header a {
@@ -146,7 +166,6 @@ nav {
 }
 
 /* Nav dropdown functionality */
-
 #nav-toggle:checked~nav {
     visibility: visible;
     max-height: 100px;
