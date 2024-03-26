@@ -11,6 +11,8 @@ This section shll contain the different parts/features of the site, explaining w
 
 ![Example of favicon](assets/images/favicon/touching-cloth-icon-144.ico) Favicon created in GIMP2.10.36 and exported as .ico files for compatability, and then used Inkscape to convert the original png to svg file to maximise compatability, I feel that this should cover all possible accepted fileypes cross-platform.
 
+Smooth transition dropdown menu to add visual flair and give a good user experience.
+
 ### Existing Features
 
 ### Features Left to Implement
