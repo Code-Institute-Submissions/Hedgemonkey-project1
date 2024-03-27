@@ -89,11 +89,11 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    color: rgb(223, 197, 163);
+    color: rgb(207,174,88);
     background-color: rgb(0, 0, 0);
 }
 
-h1 {
+h1, h2, h3 {
     font-size: 2rem;
     letter-spacing: 2px;
     font-family: 'Maiden Orange', serif;
@@ -104,7 +104,7 @@ h1 {
 /* Header */
 header {
     background-color: #333;
-    color: rgba(216, 160, 77, 1);
+    color: rgb(207,174,88);
     padding: 0 1rem;
     text-align: center;
     position: relative;
@@ -165,6 +165,7 @@ main {
     padding: 0;
     flex: 1 0 auto;
     margin-top: 5px;
+    position: relative;
 }
 /* Logo */
 #logo {
@@ -174,22 +175,69 @@ main {
     background-position: center;
     height: 150px;
     width: 100%;
+    top: 30px;
     justify-self: center;
     position: absolute;
     align-self: center;
+    z-index: 101;
 }
 /* Hero */
 #hero {
     background: url(../images/touching-cloth-hero.png) no-repeat center center/cover;
-    background-position-y: bottom;
-    height: 600px;
+    height: 900px;
     width: 100%;
+    position: relative;
+}
+
+#intro {
+    font-size: 130%;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    min-height: 200px;
+    padding-top: 40px;
+    padding-left: 10px;
+    text-align: center;
+    align-self: flex-end;
+    justify-self: flex-end;
+    background: none;
+}
+
+#intro h3 {
+    font-size: 100%;
+    padding-bottom: 10px;
+}
+
+#about-us {
+    width: 90%;
+    margin: 20px auto;
+    padding-bottom: 70px;
+}
+
+#about-us h2 {
+    font-size: 150%;
+    padding: 20px 0;
+    text-align: center;
+}
+
+#about-us hr {
+    border: 1px solid rgb(207,174,88);
+    margin: 5px auto;
+}
+
+#about-us p {
+    padding: 5px 0;
+}
+
+#about-us div {
+    line-height: 20px;
+    margin-bottom: 20px;
 }
 
 /* Footer */
 footer {
     background-color: #333;
-    color: #fff;
+    color: rgb(207,174,88);
     padding: 10px 0;
     text-align: center;
     position: fixed;
