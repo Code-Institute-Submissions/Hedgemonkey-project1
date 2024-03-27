@@ -107,8 +107,9 @@ header {
     color: rgb(207,174,88);
     padding: 0 1rem;
     text-align: center;
-    position: relative;
-    z-index: 99;
+    position: fixed;
+    top: 0;
+    z-index: 110;
     width: 100%;
     box-shadow: 0 2px 5px rgba(247, 247, 247, 0.6);
     display: flex;
@@ -135,7 +136,7 @@ header a {
 
 /* Nav */
 nav {
-    position: absolute;
+    position: fixed;
     width: 100%;
     left: 0;
     padding: 0 1rem;
@@ -164,8 +165,8 @@ nav {
 main {
     padding: 0;
     flex: 1 0 auto;
-    margin-top: 5px;
-    position: relative;
+    margin-top: 50px;
+    position: absolute;
 }
 /* Logo */
 #logo {
