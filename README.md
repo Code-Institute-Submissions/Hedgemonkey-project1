@@ -35,6 +35,9 @@ Hero image didn't display as wanted, also raised concerns that the hero image wo
 
 ![Issue with hero image alignment](assets/readme/images/hero-issue.png) ![Hero image with navigation bar active](assets/readme/images/hero-issue-menu.png)
 
+Dead space used for a brand logo, navigation bar will be styled to prevent any colour scheme isues.
+
+![Deadspace issue fixed with brand logo](assets/readme/images/fix-with-logo.png)
 
 ### Validator Testing 
 
