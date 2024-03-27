@@ -70,4 +70,6 @@ Favicon created in GIMP2.10.36 then exported as .ico files of relevent size, .sv
 
 ### Content 
 
+Chat GPT used to generate content for index page with the query "Create some text for a website welcome page for a modern tailors in Stokes Croft, Bristol called "Touching Cloth" that specializes in concealed pockets/compartments in clothing as well as other standard tailoring services and customization's"
+
 ### Media
