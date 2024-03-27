@@ -23,11 +23,17 @@ This section will detail testing as each feature is implimented ensuring that ev
 
 Any bugs encountered will be documented here.
 
-Tested the slide-down menu function:
+### Tested the slide-down menu function:
 
 Initially sliding function wasn't working as expected however problem resolved by using "visibility: hidden" instead of "display: none" after this change CSS transition operated as expected. 
 
 Had to update max-height to be large enough to allow for all menu items to be listed and visible.
+
+### Hero image
+
+Hero image didn't display as wanted, also raised concerns that the hero image would interfere with slide-down navigation menu. So decided to utilize the space provided at the top of hero image rather than adjust it for easy readability of Menu options, however something is needed to fill this blank-space.
+
+![Issue with hero image alignment](assets/readme/images/hero-issue.png) ![Hero image with navigation bar active](assets/readme/images/hero-issue-menu.png)
 
 
 ### Validator Testing 
