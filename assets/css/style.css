@@ -90,7 +90,7 @@ body {
     display: flex;
     flex-direction: column;
     color: rgb(223, 197, 163);
-    background-color: #331;
+    background-color: rgb(0, 0, 0);
 }
 
 h1 {
@@ -179,9 +179,16 @@ nav {
 
 /* Main */
 main {
-    padding: 20px;
+    padding: 0;
     flex: 1 0 auto;
-    margin-top: 30px;
+    margin-top: 5px;
+}
+
+/* Hero */
+#hero {
+    background: url(../images/touching-cloth-hero.png) no-repeat center center/cover;
+    height: 600px;
+    width: 100%;
 }
 
 /* Footer */
