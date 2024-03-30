@@ -117,12 +117,16 @@ header {
     align-items: baseline;
     height: 50px;
 }
+header h1 {
+    text-transform: uppercase;
+}
 
 /* Menu */
 #menu {
     font-size: 120%;
     letter-spacing: 2px;
     list-style-type: none;
+    text-transform: uppercase;
 }
 
 header a {
@@ -131,24 +135,23 @@ header a {
 }
 
 .active {
-    background-color: rgba(255, 255, 255, 0.301);
+    background-color: rgba(255, 255, 255, 0.601);
 }
 
 /* Nav */
 nav {
     position: fixed;
     width: 100%;
-    left: 0;
     padding: 0 1rem;
     box-shadow: 0 2px 2px rgba(247, 247, 247, 0.6);
     visibility: hidden;
-    top: 100%;
+    top: 0;
+    left: 0;
     overflow-y: hidden;
     z-index: 100;
     transition: all 1s ease;
     max-height: 0;
 }
-
 /* Nav dropdown functionality */
 #nav-toggle:checked~nav {
     visibility: visible;
@@ -182,6 +185,7 @@ main {
     align-self: center;
     z-index: 101;
 }
+
 /* Hero */
 #hero {
     background: url(../images/touching-cloth-hero.png) no-repeat center center/cover;
@@ -265,7 +269,7 @@ footer {
     padding: 10px 0 0;
     list-style-type: none;
 }
-
+z-index
 #footer-bar a {
     font-size: 160%;
     padding: 5% 5% 0;
@@ -275,3 +279,49 @@ footer {
     font-size: 100%;
     padding: 0;
 }
+
+/* Media Queries */
+/* Tablets & larger (768px and up) */
+ @media screen and (min-width: 768px) {
+/* Header & Navigation */
+    nav {
+        position: absolute; 
+        visibility: visible;
+        top: 0;
+        left: auto;
+        right: 0;
+        align-self: flex-end;
+        box-shadow: none;
+        width: fit-content;
+        height: fit-content;
+        max-height: 120px;
+        padding-right: 0.1rem;
+        z-index: 120;
+        justify-content: space-between;
+    }
+
+    nav ul {
+        display: flex;
+    }
+
+    #menu {
+        display: flex;
+        color: rgb(207,174,88);
+        font-size: 100%;
+        z-index: 130;
+    }
+
+    #menu li {
+        padding: 10px;
+        z-index: 130;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
+
+    /* Hero */
+    #hero {
+        height: 800px;
+    }
+ }
