@@ -23,6 +23,10 @@ This section will detail testing as each feature is implimented ensuring that ev
 
 Any bugs encountered will be documented here.
 
+### General miscellaneous bugs:
+
+Fixed bug where incorrect id was being used for title-logo on contact.html
+
 ### Tested the slide-down menu function:
 
 Initially sliding function wasn't working as expected however problem resolved by using "visibility: hidden" instead of "display: none" after this change CSS transition operated as expected. 
