@@ -31,6 +31,8 @@ Had to update max-height to be large enough to allow for all menu items to be li
 
 Fixed bug where the top bar was scrolling with the rest of the page.
 
+Fixed bug where the "max-height" under the nav element of CSS was preventing navigation from displaying after media query of screen size 768px and above.
+
 ### Hero image
 
 Hero image didn't display as wanted, also raised concerns that the hero image would interfere with slide-down navigation menu. So decided to utilize the space provided at the top of hero image rather than adjust it for easy readability of Menu options, however something is needed to fill this blank-space.
