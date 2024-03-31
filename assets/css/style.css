@@ -346,7 +346,8 @@ footer {
 
     #about_not-just-tailors {
         display: flex;
-        flex-direction: column;
+        flex-flow: row wrap;
+        justify-content: space-between;
         width: 100%;
     }
 
@@ -354,24 +355,50 @@ footer {
         text-align: left;
     }
 
+    #about_not-average {
+        width: 40%;
+        justify-self: start;
+    }
+
     #about_full-experience, #about_full-experience h3 {
         text-align: right;
+    }
+
+    #about_full-experience {
+        width: 40%;
+        justify-self: end;
+
     }
 
     #about_sets-apart, #about_sets-apart h3 {
         text-align: left;
     }
 
+    #about_sets-apart {
+        width: 40%;
+        justify-self: start;
+    }
+
     #about_fusion, #about_fusion h3 {
         text-align: right;
     }
 
+    #about_fusion {
+        width: 40%;
+        justify-self: end;
+    }
+
     #about_discover, #about_discover h3 {
-        text-align: left;
+        text-align: center;
+    }
+
+    #about_discover {
+        width: 100%;
     }
 
     /* Desktops & Larger 1024px and up */
  @media screen and (min-width: 1024px) {
+    /* Header & Navigation */
     nav, #nav-toggle:checked~nav {
         width: 75%;
         justify-content: space-between;
