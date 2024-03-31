@@ -198,6 +198,7 @@ main {
     position: relative;
 }
 
+/* Intro */
 #intro {
     font-size: 130%;
     position: absolute;
@@ -218,6 +219,7 @@ main {
     line-height: 20px;
 }
 
+/* About Us */
 #about-us {
     width: 90%;
     margin: 20px auto;
@@ -245,6 +247,7 @@ main {
     margin-bottom: 20px;
 }
 
+/* Worker image */
 #about_worker-pic {
     background: url(../images/touching-cloth-worker.png) no-repeat center center/cover;
     width: 200px;
@@ -256,7 +259,7 @@ main {
 
 /* Footer */
 footer {
-    background-color: #333;
+    background-color: rgba(0, 0, 0, 1);
     color: rgb(207,174,88);
     padding: 10px 0;
     text-align: center;
@@ -273,10 +276,15 @@ footer {
     padding: 10px 0 0;
     list-style-type: none;
 }
-z-index
+
 #footer-bar a {
     font-size: 160%;
     padding: 5% 5% 0;
+    color: grey
+}
+
+#footer-bar a:hover {
+    color: rgb(207,174,88);
 }
 
 #footer-bar p {
@@ -329,9 +337,40 @@ z-index
     #hero {
         height: 900px;
     }
- }
 
- /* Desktops & Larger 1024px and up */
+    /* About Us */
+    #about-us hr {
+        margin: 10px auto;
+        width: 100%;
+    }
+
+    #about_not-just-tailors {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #about_not-average, #about_not-average h3 {
+        text-align: left;
+    }
+
+    #about_full-experience, #about_full-experience h3 {
+        text-align: right;
+    }
+
+    #about_sets-apart, #about_sets-apart h3 {
+        text-align: left;
+    }
+
+    #about_fusion, #about_fusion h3 {
+        text-align: right;
+    }
+
+    #about_discover, #about_discover h3 {
+        text-align: left;
+    }
+
+    /* Desktops & Larger 1024px and up */
  @media screen and (min-width: 1024px) {
     nav, #nav-toggle:checked~nav {
         width: 75%;
