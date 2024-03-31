@@ -173,7 +173,6 @@ main {
     padding: 0;
     flex: 1 0 auto;
     margin-top: 0;
-    /* position: absolute; */
 }
 /* Logo */
 #logo {
@@ -415,6 +414,9 @@ footer {
         position: absolute;
         top: 250px;
         width: 100%;
+        display: flex;
+        padding-left: 2%;
+        padding-right: 2%;
     }
 
     #about-us hr {
@@ -472,4 +474,15 @@ footer {
         padding-left: 75px;
     }
 }
-    
+    /* Large Desktops & Larger 2200px and up */
+    @media screen and (min-width: 2200px) {
+        /* Hero */
+        #hero {
+            height: 1200px;
+        }
+        /* Bottom text */
+        #about_discover {
+            padding-top: 8%;
+        }
+        
+    }
