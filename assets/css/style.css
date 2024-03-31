@@ -173,7 +173,7 @@ main {
     padding: 0;
     flex: 1 0 auto;
     margin-top: 0;
-    position: absolute;
+    /* position: absolute; */
 }
 /* Logo */
 #logo {
@@ -335,7 +335,7 @@ footer {
 
     /* Hero */
     #hero {
-        height: 900px;
+        height: 1024px;
     }
 
     /* About Us */
@@ -351,41 +351,23 @@ footer {
         width: 100%;
     }
 
-    #about_not-average, #about_not-average h3 {
+    #about_not-average, #about_not-average h3, #about_sets-apart, #about_sets-apart h3 {
         text-align: left;
     }
 
-    #about_not-average {
+    #about_not-average, #about_sets-apart {
         width: 40%;
         justify-self: start;
     }
 
-    #about_full-experience, #about_full-experience h3 {
+    #about_full-experience, #about_full-experience h3, #about_fusion, #about_fusion h3 {
         text-align: right;
     }
 
-    #about_full-experience {
+    #about_full-experience, #about_fusion {
         width: 40%;
         justify-self: end;
 
-    }
-
-    #about_sets-apart, #about_sets-apart h3 {
-        text-align: left;
-    }
-
-    #about_sets-apart {
-        width: 40%;
-        justify-self: start;
-    }
-
-    #about_fusion, #about_fusion h3 {
-        text-align: right;
-    }
-
-    #about_fusion {
-        width: 40%;
-        justify-self: end;
     }
 
     #about_discover, #about_discover h3 {
@@ -411,5 +393,83 @@ footer {
         justify-content: space-between;
         right: 0;
     }
+}
+
+    /* Large Desktops & Larger 1440px and up */
+    @media screen and (min-width: 1440px){
+    /* Intro */
+    #intro {
+        font-size: 300%;
+        line-height: 300%;
+        text-shadow: 1px 1px 2px black;
+        position: relative;
+        top: 180px;
+    }
+
+    #intro > h2 {
+        display: none;
+    }
+
+    /* About Us */
+    #about-us {
+        position: absolute;
+        top: 250px;
+        width: 100%;
+    }
+
+    #about-us hr {
+        margin: 10px auto;
+        width: 100%;
+    }
+
+    #about-us h3 {
+        line-height: 150%;
+    }
+
+    #about_not-just-tailors {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    #about_not-average, #about_not-average h3, #about_sets-apart, #about_sets-apart h3 {
+        text-align: left;
+    }
+
+    #about_not-average, #about_sets-apart {
+        width: 35%;
+        justify-self: start;
+        font-size: 150%;
+        line-height: 150%;
+        padding-right: 75px;
+        padding-left: 15px;
+    }
+
+    #about_full-experience, #about_full-experience h3, #about_fusion, #about_fusion h3 {
+        text-align: right;
+    }
+
+    #about_full-experience, #about_fusion {
+        width: 35%;
+        justify-self: end;
+        font-size: 150%;
+        line-height: 150%;
+        padding-right: 15px;
+        padding-left: 75px;
+    }
+
+    #about_discover, #about_discover h3 {
+        text-align: center;
+        font-size: 150%;
+    }
+
+    #about_discover {
+        width: 100%;
+        font-size: 150%;
+        line-height: 150%;
+        padding-right: 75px;
+        padding-left: 75px;
+    }
+}
     
- }
