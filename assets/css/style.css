@@ -402,6 +402,11 @@ footer {
         width: 100%;
     }
 
+    /* Find Us */
+    #google-map {
+        height: 600px;
+    }
+
 /* Laptops & Larger 1024px and up */
 @media screen and (min-width: 1024px) {
     /* Header & Navigation */
@@ -416,6 +421,11 @@ footer {
         display: flex;
         justify-content: space-between;
         right: 0;
+    }
+
+    /* Find Us */
+    #google-map {
+        height: 800px;
     }
 }
 
