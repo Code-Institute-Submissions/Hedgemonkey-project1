@@ -7,11 +7,15 @@ This is a website for a tailors called "Touching Cloth" aimed at potential custo
 
 ## Features 
 
-This section shll contain the different parts/features of the site, explaining what each is for and what value it holds for the end user and how it helps them achieve that goal.
+This section shall contain the different parts/features of the site, explaining what each is for and what value it holds for the end user and how it helps them achieve that goal.
 
 ![Example of favicon](assets/images/favicon/touching-cloth-icon-144.ico) Favicon created in GIMP2.10.36 and exported as .ico files for compatability, and then used Inkscape to convert the original png to svg file to maximise compatability, I feel that this should cover all possible accepted fileypes cross-platform.
 
 Smooth transition dropdown menu to add visual flair and give a good user experience.
+
+Fully responsive website for all screen sizes.
+
+Interactive google map of location on "Find Us" page.
 
 ### Existing Features
 
