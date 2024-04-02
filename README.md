@@ -41,6 +41,10 @@ Fixed bug where the top bar was scrolling with the rest of the page.
 
 Fixed bug where the "max-height" under the nav element of CSS was preventing navigation from displaying after media query of screen size 768px and above.
 
+### Contact page testing and bugs
+
+Fixed text-align issue for input to textfield for message where it was being centered, so changed to text-align left.
+
 ### Hero image
 
 Hero image didn't display as wanted, also raised concerns that the hero image would interfere with slide-down navigation menu. So decided to utilize the space provided at the top of hero image rather than adjust it for easy readability of Menu options, however something is needed to fill this blank-space.
