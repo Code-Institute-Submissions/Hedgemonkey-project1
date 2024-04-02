@@ -423,6 +423,19 @@ footer {
         width: 100%;
     }
 
+    /* Gallery */
+
+    #gallery {
+        column-count: 2;
+        top: 60px;
+        padding: 10px 30px 100px 10px;
+    }
+
+    #gallery-images img {
+        box-shadow: 0px 0px 10px white;
+        margin: 10px 10px;
+    }
+
     /* Find Us */
     #google-map {
         height: 600px;
@@ -442,6 +455,11 @@ footer {
         display: flex;
         justify-content: space-between;
         right: 0;
+    }
+
+    /* Gallery */
+    #gallery {
+        column-count: 3;
     }
 
     /* Find Us */
@@ -536,6 +554,11 @@ footer {
     /* Hero */
     #hero {
        height: 1200px;
+    }
+
+    /* Gallery */
+    #gallery {
+        column-count: 4;
     }
 
     /* Bottom text */
