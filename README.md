@@ -35,7 +35,7 @@ Fixed bug where incorrect id was being used for title-logo on contact.html
 
 Initially sliding function wasn't working as expected however problem resolved by using "visibility: hidden" instead of "display: none" after this change CSS transition operated as expected. 
 
-Had to update max-height to be large enough to allow for all menu items to be listed and visible.
+Updated max-height to be large enough to allow for all menu items to be listed and visible.
 
 Fixed bug where the top bar was scrolling with the rest of the page.
 
@@ -44,6 +44,10 @@ Fixed bug where the "max-height" under the nav element of CSS was preventing nav
 ### Contact page testing and bugs
 
 Fixed text-align issue for input to textfield for message where it was being centered, so changed to text-align left.
+
+### Find Us Page
+
+Fixed a bug where the footer covered the bottom of the content.
 
 ### Hero image
 
