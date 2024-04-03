@@ -53,6 +53,10 @@ Fixed a bug where the footer covered the bottom of the content.
 
 Fixed a bug causing the footer to cover the bottom of page.
 
+### Gallery
+
+Fixed a duplicate img href picture in gallery to point to the correct file.
+
 ### Hero image
 
 Hero image didn't display as wanted, also raised concerns that the hero image would interfere with slide-down navigation menu. So decided to utilize the space provided at the top of hero image rather than adjust it for easy readability of Menu options, however something is needed to fill this blank-space.
