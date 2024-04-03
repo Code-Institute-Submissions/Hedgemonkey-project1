@@ -358,18 +358,28 @@ main {
     padding-bottom: 100px;
 }
 
+#services ul {
+    list-style-type: none;
+}
+
+#services li {
+    display: inline-block;
+}
+
 #pop-services {
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     width: 100%;
 }
 
-#pop-services h2 {
+#pop-service-title {
+    top: 50px;
+    position: relative;
     text-align: center;
     width: 100%;
-    font-size: 300%;
+    font-size: 200%;
 }
 
 .service {
@@ -379,6 +389,7 @@ main {
     border: 2px solid rgb(207,174,88);
     border-radius: 5px;
     text-align: center;
+    display: inline-block;
 }
 
 /* Footer */
@@ -520,6 +531,15 @@ footer {
         height: 600px;
     }
 
+    /* Services */
+    #services {
+        column-count: 2;
+    }
+
+    .services {
+        width: 40%;
+    }
+
 /* Laptops & Larger 1024px and up */
 @media screen and (min-width: 1024px) {
     /* Header & Navigation */
@@ -544,6 +564,15 @@ footer {
     /* Find Us */
     #google-map {
         height: 800px;
+    }
+
+    /* Services */
+    #services {
+        column-count: 3;
+    }
+
+    .services {
+        width: 40%;
     }
 }
 
