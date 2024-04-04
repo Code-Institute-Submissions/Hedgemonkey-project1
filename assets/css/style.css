@@ -261,6 +261,10 @@ main {
     margin-bottom: 20px;
 }
 
+#about-us a {
+    color: rgb(111, 100, 255);
+}
+
 /* Worker image */
 #about_worker-pic {
     background: url(../images/touching-cloth-worker.jpg) no-repeat center center/cover;

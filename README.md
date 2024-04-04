@@ -31,6 +31,8 @@ Any bugs encountered will be documented here.
 
 Fixed bug where incorrect id was being used for title-logo on contact.html
 
+Fixed accessability issue where the link to sign up to the newsletter on index.html didn't have a high enough contrast ratio to the background by adjusting the styles.
+
 ### Tested the slide-down menu function:
 
 Initially sliding function wasn't working as expected however problem resolved by using "visibility: hidden" instead of "display: none" after this change CSS transition operated as expected. 
