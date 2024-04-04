@@ -2,8 +2,8 @@
 
 This is a website for a tailors called "Touching Cloth" aimed at potential customers for the store. It will include a rundown of services provided, and costs where applicable, aswell as images of the store, the workshop, and finished products. Customers will also be able to access the stores social media, sign up to a mailing list, and access contact details/address & map of the location.
 
-![Balsamic wireframe for smartphone view](assets/readme/images/touching-cloth-smart-wf.png)
-![Balsamic wireframe for desktop browser](assets/readme/images/touching-cloth-browser-wf.png)
+![Balsamic wireframe for smartphone view](readme/images/touching-cloth-smart-wf.png)
+![Balsamic wireframe for desktop browser](readme/images/touching-cloth-browser-wf.png)
 
 ## Features 
 
@@ -61,11 +61,11 @@ Fixed a duplicate img href picture in gallery to point to the correct file.
 
 Hero image didn't display as wanted, also raised concerns that the hero image would interfere with slide-down navigation menu. So decided to utilize the space provided at the top of hero image rather than adjust it for easy readability of Menu options, however something is needed to fill this blank-space.
 
-![Issue with hero image alignment](assets/readme/images/hero-issue.png) ![Hero image with navigation bar active](assets/readme/images/hero-issue-menu.png)
+![Issue with hero image alignment](readme/images/hero-issue.png) ![Hero image with navigation bar active](readme/images/hero-issue-menu.png)
 
 Dead space used for a brand logo, navigation bar will be styled to prevent any colour scheme isues.
 
-![Deadspace issue fixed with brand logo](assets/readme/images/fix-with-logo.png)
+![Deadspace issue fixed with brand logo](readme/images/fix-with-logo.png)
 
 ### Validator Testing 
 
@@ -73,7 +73,7 @@ Dead space used for a brand logo, navigation bar will be styled to prevent any c
   - Test the website by passing through the official [W3C validator](https://validator.w3.org/)
 - CSS
   - Test the website by passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/)
-
+assets/
 ### Unfixed Bugs
 
 Any unfixed bugs will be detailed here and explinations as to why they haven not been fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed.
