@@ -41,6 +41,25 @@ I used [Balsamiq](https://balsamiq.com/wireframes) to make these initial mockups
 | :---: | :---: |
 | ![Balsamic wireframe for smartphone view](readme/images/touching-cloth-smart-wf.png) | ![Balsamic wireframe for desktop browser](readme/images/touching-cloth-browser-wf.png) |
 
+## UX
+
+- The original design was created from the wireframe mockups shown above with a "Mobile First" design philosophy.
+- Ease of use and intuitive design was kept in mind throughout.
+- Design was made to seamlessly incorporate the brand identity of the store thoughout.
+
+### Colour Scheme
+
+The colour scheme that was choosen is intended to keep with the brand asthetic while also maximising accessability and readability on all devices.\
+The colours used are:
+
+- ![Black Box](readme/images/color-0-0-0.jpg) 'rgb(0,0,0)' black default background to intergrate with the brand hero image used.
+- ![Yellow Box](readme/images/color-207-174-88.jpg) 'rgb(207,174,88)' to match the colour of the text in the brand image for all other text which also gives a high accessability rating on the black background
+- ![White Transparrent Box](readme/images/color-255-255-255-06.jpg) 'rgba(255, 255, 255, 0.6)' white background with mid-low transparency for the active page links to clearly indicate the current active page.
+- ![Black Box](readme/images/color-0-0-0.jpg) 'rgb(0,0,0)' for text of the currently active nav link to keep easy readbility and accessability
+- ![Grey Box](readme/images/color-grey.jpg) 'grey' colour used for the social media links on the footer with 'rgb(207,174,88)' on hover
+- ![White Box](readme/images/color-white.jpg) white colour is used for some shadow effects and hover of navigation to maximize the user experience
+- ![Purple Box](readme/images/color-111-100-255.jpg) 'rgb(111, 100, 255)' used for the plain text newsletter link on the main page to keep a high contrast ratio with the background while also making it clear to the user of it's function
+
 ## Features 
 
 This section shall contain the different parts/features of the site, explaining what each is for and what value it holds for the end user and how it helps them achieve that goal.
