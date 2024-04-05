@@ -127,13 +127,15 @@ Dead space used for a brand logo, navigation bar will be styled to prevent any c
 ### Validator Testing 
 
 - HTML
-  - Test the website by passing through the official [W3C validator](https://validator.w3.org/)
+  - All pages passed testing with the [W3C validator](https://validator.w3.org/)
+![W3C Validator testing screenshot](readme/images/w3c-valid.jpg)
 - CSS
-  - Test the website by passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/)
-assets/
+  - The CSS passed by testng with [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/) ![W3C CSS Logo](readme/images/vcss-blue.gif)
+  ![CSS Jigsaw Validator testing screenshot](readme/images/css-valid.jpg)
+
 ### Unfixed Bugs
 
-Any unfixed bugs will be detailed here and explinations as to why they haven not been fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed.
+Currently no known unfixed bugs.
 
 ## Deployment
 
