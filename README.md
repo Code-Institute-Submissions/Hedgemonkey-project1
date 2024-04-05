@@ -263,16 +263,28 @@ There are no notable differences between my local developed site and the GitHub 
 
 In this section I will refrence the sources of my content and media, full disclosure of any resources used shall be detailed here.
 
-Balsamic used for wireframe mockups.
+- Balsamic used for wireframe mockups.
 
-Hero image generated with Midjourney AI Image generator using the prompt: "professional line-art vector style logo for a modern tailoring company called "Touching Cloth Modern Tailors", professional brand design look in the style of Yoji Shinkawa, James Gilleard and Greg Rutkowski. logo, pocket and stitching illustration, simple, minimalistic, transparent background, using a simple and clean font --s 750 --v 6.0 --ar 103:46"
+- Hero image generated with Midjourney AI Image generator using the prompt: "professional line-art vector style logo for a modern tailoring company called "Touching Cloth Modern Tailors", professional brand design look in the style of Yoji Shinkawa, James Gilleard and Greg Rutkowski. logo, pocket and stitching illustration, simple, minimalistic, transparent background, using a simple and clean font --s 750 --v 6.0 --ar 103:46"
 
-Logo created using Gnome Image Manipulation Program (GIMP 2.10.36)
+- Logo created using Gnome Image Manipulation Program (GIMP 2.10.36)
 
-Favicon created in GIMP2.10.36 then exported as .ico files of relevent size, .svg icon file converted using Inkscape.
+- Favicon created in GIMP2.10.36 then exported as .ico files of relevent size, .svg icon file converted using Inkscape.
+
+- All images in the gellery were generated using Midjourney you can find my Discord server used to generate all the images used on this site [HERE](https://discord.gg/zMJjhgub)
+
+- https://raw.githubusercontent.com/boderg/your-weather/main/README.md was used as a template for my README.md
 
 ### Content 
 
 Chat GPT used to generate content for index page with the query "Create some text for a website welcome page for a modern tailors in Stokes Croft, Bristol called "Touching Cloth" that specializes in concealed pockets/compartments in clothing as well as other standard tailoring services and customization's"
 
 ### Media
+
+All media on this site was generated using Midjourney as documented above
+
+### Acknowledgements
+
+- I would like to thank my Code Institute mentor, [Chris Quinn](https://github.com/10xOXR) for their support throughout the development of this project.
+- I would like to thank the [Code Institute Slack community](https://code-institute-room.slack.com) for the moral support and general information that helps with my studies.
+- I would like to also thank ChatGPT for filling in all the textual content which saved me a lot of bother!
