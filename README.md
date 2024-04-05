@@ -118,11 +118,11 @@ Fixed a duplicate img href picture in gallery to point to the correct file.
 
 Hero image didn't display as wanted, also raised concerns that the hero image would interfere with slide-down navigation menu. So decided to utilize the space provided at the top of hero image rather than adjust it for easy readability of Menu options, however something is needed to fill this blank-space.
 
-![Issue with hero image alignment](readme/images/hero-issue.png) ![Hero image with navigation bar active](readme/images/hero-issue-menu.png)
+![Issue with hero image alignment](readme/images/hero-issue.jpg) ![Hero image with navigation bar active](readme/images/hero-issue-menu.jpg)
 
 Dead space used for a brand logo, navigation bar will be styled to prevent any colour scheme isues.
 
-![Deadspace issue fixed with brand logo](readme/images/fix-with-logo.png)
+![Deadspace issue fixed with brand logo](readme/images/fix-with-logo.jpg)
 
 ### Validator Testing 
 
