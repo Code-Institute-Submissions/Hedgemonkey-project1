@@ -60,6 +60,25 @@ The colours used are:
 - ![White Box](readme/images/color-white.jpg) white colour is used for some shadow effects and hover of navigation to maximize the user experience
 - ![Purple Box](readme/images/color-111-100-255.jpg) 'rgb(111, 100, 255)' used for the plain text newsletter link on the main page to keep a high contrast ratio with the background while also making it clear to the user of it's function
 
+### Typography
+
+- Google Font's used sitewide for "Touching Cloth"
+
+- '[Maiden Orange](https://fonts.google.com/specimen/Maiden+Orange)' was chosen for similarities to brand and used site wide due to it's diversity
+
+- [Font Awesome](https://fontawesome.com) icons were used in the footer for social media links.
+
+## User Stories
+
+### New and/or Returning Users
+
+- As a new and/or returning user, I would like to find out information about the services offered by "Touching Cloth"
+- As a new and/or returning user, I would like to be able to find out where "Touching Cloth" is located
+- As a new and/or returning user, I would like to see examples of the products/services offered by "Touching Cloth"
+- As a new and/or returning user, I would like to be able to get in contact with "Touching Cloth"
+- As a new and/or returning user, I would like to sign up for the newsletter for 'Touching Cloth'
+- As a new user, I would like to quickly find out what "Touching Cloth" is about
+
 ## Features 
 
 This section shall contain the different parts/features of the site, explaining what each is for and what value it holds for the end user and how it helps them achieve that goal.
