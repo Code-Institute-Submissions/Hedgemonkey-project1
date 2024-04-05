@@ -1,9 +1,29 @@
-# Touching Cloth 
+# [Touching Cloth](https://hedgemonkey.github.io/project1 "Click to view the deployed site")
 
-This is a website for a tailors called "Touching Cloth" aimed at potential customers for the store. It will include a rundown of services provided, and costs where applicable, aswell as images of the store, the workshop, and finished products. Customers will also be able to access the stores social media, sign up to a mailing list, and access contact details/address & map of the location.
+- "Touching Cloth" is a website for a tailors aimed at potential customers for the store.
+- "Touching Cloth" includes a rundown of services provided.
+- "Touching Cloth" has a gallery with images of the store, the workshop, and finished products.
+- "Touching Cloth" visitors will also be able to access the stores social media, and sign up to a mailing list.
+- "Touching Cloth" has a Find us page with access the address & interactive google maps of the location of the store.
 
-![Balsamic wireframe for smartphone view](readme/images/touching-cloth-smart-wf.png)
-![Balsamic wireframe for desktop browser](readme/images/touching-cloth-browser-wf.png)
+<details>
+<summary>Click here for Table of Contents</summary>
+
+[Responsive Screenshots](#responsive-screenshots)
+
+[Wireframes Screenshots](#wireframes-screenshots)
+
+[UX](#ux)
+
+[Features](#features)
+
+[Testing](#testing)
+
+[Deployment](#deployment)
+
+[Credits](#credits)
+
+</details>
 
 ## Features 
 
