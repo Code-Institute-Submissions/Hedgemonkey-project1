@@ -548,6 +548,7 @@ footer {
     .services {
         width: 40%;
     }
+}
 
 /* Laptops & Larger 1024px and up */
 @media screen and (min-width: 1024px) {
@@ -681,6 +682,5 @@ footer {
     /* Bottom text */
     #about_discover {
         padding-top: 8%;
-    }
-        
+    }  
 }
