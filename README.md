@@ -93,6 +93,71 @@ Interactive google map of location on "Find Us" page.
 
 ### Existing Features
 
+#### Responsive Navigation
+
+A responsive navigation was used so that the site is useable across all devices\
+
+| Large Nav |
+| :---: |
+| ![Navigation on large devices](readme/images/large-nav.jpg) |
+
+| Small Navigation Closed | Small Navigation Open |
+| :---: | :---: |
+| ![Small Nav Closed](readme/images/small-nav-closed.jpg) | ![Small Nav Open](readme/images/small-nav-open.jpg) |
+
+#### Responsive Home Page
+
+A responsive home page was used to display content on the home page while efficently using up potential dead space on larger displays
+
+| Large Home Page |
+| :---: |
+| ![Large Home Page](readme/images/index-large.jpg) |
+
+| Small Home Page | Medium Home Page |
+| :---: | :--: |
+| ![Small Home Page](readme/images/index-small.jpg) | ![Medium Home Page](readme/images/index-med.jpg) |
+
+#### Responsive Gallery Page
+
+A responsive 'Gallery' page was used to display the images in a efficent way across different screen sizes
+
+| Large Gallery Page |
+| :---: |
+| ![Large Gallery Page](readme/images/gallery-large.jpg) |
+
+| Small Gallery Page | Medium Gallery Page |
+| :---: | :--: |
+| ![Small Gallery Page](readme/images/gallery-small.jpg) | ![Medium Gallery Page](readme/images/gallery-med.jpg) |
+
+#### Responsive Services Page
+
+A responsive 'Services' page was used to display the services in a efficent way across different screen sizes
+
+| Large Services Page |
+| :---: |
+| ![Large Services Page](readme/images/services-large.jpg) |
+
+| Small Services Page | Medium Services Page |
+| :---: | :--: |
+| ![Small Services Page](readme/images/services-small.jpg) | ![Medium Services Page](readme/images/services-med.jpg) |
+
+#### Contact Page
+
+A form with the option to sign up to the newsletter was used on the 'Contact Us' page, full form validation was implimented with required and optional fields clearly marked
+
+| Contact Form |
+| :---: |
+| ![Contact Form](readme/images/contact.jpg) |
+
+#### Responsive Google Maps
+
+A responsive 'Find Us' page was implimented using google maps via an iframe
+
+| Large Map Page | Small Map Page |
+| :---: | :---: |
+| ![Large Map Page](readme/images/map-large.jpg) | ![Small Map Page](readme/images/map-small.jpg) |
+
+
 ### Features Left to Implement
 
 ## Testing 
