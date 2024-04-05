@@ -160,6 +160,8 @@ A responsive 'Find Us' page was implimented using google maps via an iframe
 
 ### Features Left to Implement
 
+I would like to add a 'Quote Calculator' in the future, and possibly a 'Special offers & Deals' section.
+
 ## Testing 
 
 This section will detail testing as each feature is implimented ensuring that everything works as inteded. Notes will be made regarding how the website looks and feels on different browsers & screen sizes.
