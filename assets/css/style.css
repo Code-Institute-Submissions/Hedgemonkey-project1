@@ -120,11 +120,10 @@ header {
     top: 0;
     z-index: 110;
     width: 100%;
-    box-shadow: 0 2px 5px rgba(255, 255, 255, 0.6);
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    height: 50px;
+    height: 45px;
 }
 header h1 {
     text-transform: uppercase;
@@ -175,7 +174,7 @@ nav a:hover {
     visibility: visible;
     max-height: 300px;
     transition: all 1s ease;
-    top: 50px;
+    top: 45px;
 }
 
 #nav-toggle {
