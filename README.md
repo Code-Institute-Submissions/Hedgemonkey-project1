@@ -25,6 +25,22 @@
 
 </details>
 
+## Responsive Screenshots
+
+Below is a screenshot showing the responsive design of the website created using the "Am I Responsive website. [Link Here](https://ui.dev/amiresponsive?url=https://hedgemonkey.github.io/project1)
+| "Am I Responsive" Screenshot |
+| :---: |
+| ![screenshot](readme/images/am-i-responsive.jpg) |
+
+## Wireframes Screenshots
+
+Following best practices, wireframe mock ups were made to give a rough initial vision for the design and layout of the website.
+I used [Balsamiq](https://balsamiq.com/wireframes) to make these initial mockups.
+
+| Smartphone/Tablet View | Desktop View |
+| :---: | :---: |
+| ![Balsamic wireframe for smartphone view](readme/images/touching-cloth-smart-wf.png) | ![Balsamic wireframe for desktop browser](readme/images/touching-cloth-browser-wf.png) |
+
 ## Features 
 
 This section shall contain the different parts/features of the site, explaining what each is for and what value it holds for the end user and how it helps them achieve that goal.
